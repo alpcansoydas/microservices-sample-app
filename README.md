@@ -5,10 +5,9 @@ Project architecture:
 
 
 Admin panel products page:
-
 ![Screenshot 2023-10-15 at 14 49 00](https://github.com/alpcansoydas/microservices-sample-app/assets/48163702/a43f4b90-f4f5-48d4-a711-a262a5dda8d5)
 
-You can run admin and main part of the project with
+You can run the admin and main backend services with:
 
 cd /main
 docker-compose up
@@ -16,4 +15,4 @@ docker-compose up
 cd /admin
 docker-compose up
 
-This project is created from freecodecamp.org
+This sample project is created to understand microservice architecture from freecodecamp.org 
