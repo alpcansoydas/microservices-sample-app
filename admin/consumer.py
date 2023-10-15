@@ -9,7 +9,7 @@ import django
 django.setup()
 from django.core.management import call_command
 
-params = pika.URLParameters("amqps://xrptvbev:rm30Oy1-faBybWxGEF2H9tRDa36giNso@stingray.rmq.cloudamqp.com/xrptvbev")
+params = pika.URLParameters("your-rabbitmq-key")
 
 connection = pika.BlockingConnection(params)
 
